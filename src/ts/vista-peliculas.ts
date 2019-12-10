@@ -86,7 +86,7 @@ export class VistaPeliculas {
 
   private limpiarLista(vista: boolean): void {
     const listaItems = vista ? this.HTML.peliculasVistas : this.HTML.peliculasPendientes;
-    console.log(listaItems);
+
     for (const item of listaItems) {
       item.remove();
     }
@@ -145,7 +145,7 @@ export class VistaPeliculas {
 
   private limpiarListaDirectores(): void {
     const listaItems = this.HTML.directores;
-    console.log(listaItems);
+
     for (const item of listaItems) {
       item.remove();
     }

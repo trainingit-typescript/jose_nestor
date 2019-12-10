@@ -10,7 +10,6 @@ export class ControladorPeliculas {
   constructor() {
     this.cargaPeliculas();
     this.getTodosDirectores();
-    this.getPeliculasDirector("David Fincher");
   }
 
   public cargaPeliculas(): void {
